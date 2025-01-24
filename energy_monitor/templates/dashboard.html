@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="text-lg font-bold">Carbon Footprint Results</h2>
+<p>Total Carbon Footprint: {{ carbon_footprint }} kg CO2</p>
+
+<h3 class="mt-6 text-lg">Consumption Data</h3>
+<table class="table-auto border-collapse border border-gray-200 w-full">
+    <thead>
+        <tr>
+            <th class="border border-gray-200 p-2">Electricity (kWh)</th>
+            <th class="border border-gray-200 p-2">Gas (Liters)</th>
+            <th class="border border-gray-200 p-2">Water (Liters)</th>
+            <th class="border border-gray-200 p-2">Carbon Footprint (kg)</th>
+            <th class="border border-gray-200 p-2">Timestamp</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in data %}
+        <tr>
+            <td class="border border-gray-200 p-2">{{ row[1] }}</td>
+            <td class="border border-gray-200 p-2">{{ row[2] }}</td>
+            <td class="border border-gray-200 p-2">{{ row[3] }}</td>
+            <td class="border border-gray-200 p-2">{{ row[4] }}</td>
+            <td class="border border-gray-200 p-2">{{ row[5] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
