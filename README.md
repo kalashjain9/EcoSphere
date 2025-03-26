@@ -46,7 +46,8 @@ By integrating AI, data analytics, and predictive modeling, EcoSphere promotes e
 🎥 Working Prototype Video
 
 👀 Watch EcoSphere in action!
-🔗 Click here to watch the prototype video - https://drive.google.com/file/d/1b7X9gXEYA-O0xCkMjp8houGEF31H1lIR/view?usp=drivesdk
+🔗 Click here to watch the prototype video - 
+https://drive.google.com/file/d/1b7X9gXEYA-O0xCkMjp8houGEF31H1lIR/view?usp=drivesdk
 
 
 ---
